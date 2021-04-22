@@ -1,5 +1,4 @@
 import React, {useEffect, useRef, useState} from 'react';
-import './App.css';
 import {fromEvent, interval, Subject} from 'rxjs';
 import {buffer, debounceTime, filter, map, takeUntil, tap} from "rxjs/operators";
 
