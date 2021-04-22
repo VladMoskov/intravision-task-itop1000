@@ -1,6 +1,8 @@
+import {Button, Stack} from '@material-ui/core';
 import React, {useEffect, useRef, useState} from 'react';
 import {fromEvent, interval, Subject} from 'rxjs';
 import {buffer, debounceTime, filter, map, takeUntil, tap} from "rxjs/operators";
+import './index.css';
 
 export const App: React.FC = () => {
 
@@ -8,7 +10,6 @@ export const App: React.FC = () => {
     const [isPaused, setIsPaused] = useState<boolean>(false);
     const [ticker, setTicker] = useState<number>(0);
     const [isStarted, setIsStarted] = useState<boolean>(false);
-
 
 
     useEffect(() => {
@@ -52,13 +53,13 @@ export const App: React.FC = () => {
         setIsPaused(false)
     }
 
-    return <div>
-
+    return <div className={'wrapper'}>
         <h1>{new Date(ticker).toISOString().slice(11, 19)}</h1>
 
-        <button onClick={start}>Start/Stop</button>
-        <button ref={wait}>Wait</button>
-        <button onClick={reset}>Reset
-        </button>
+        <Stack direction="row" spacing={2}>
+            <Button variant="contained" onClick={start}>Start/Stop</Button>
+            <Button variant="contained" ref={wait}>Wait</Button>
+            <Button variant="contained" onClick={reset}>Reset</Button>
+        </Stack>
     </div>
 }
