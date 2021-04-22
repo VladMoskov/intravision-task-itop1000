@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/intravision-task-itop1000/static/js/main.d3162f6e.chunk.js",
-    "main.js.map": "/intravision-task-itop1000/static/js/main.d3162f6e.chunk.js.map",
+    "main.js": "/intravision-task-itop1000/static/js/main.a5fb1a5f.chunk.js",
+    "main.js.map": "/intravision-task-itop1000/static/js/main.a5fb1a5f.chunk.js.map",
     "runtime-main.js": "/intravision-task-itop1000/static/js/runtime-main.3dc6a8f0.js",
     "runtime-main.js.map": "/intravision-task-itop1000/static/js/runtime-main.3dc6a8f0.js.map",
     "static/js/2.5773e1b8.chunk.js": "/intravision-task-itop1000/static/js/2.5773e1b8.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.3dc6a8f0.js",
     "static/js/2.5773e1b8.chunk.js",
-    "static/js/main.d3162f6e.chunk.js"
+    "static/js/main.a5fb1a5f.chunk.js"
   ]
 }
