@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/intravision-task-itop1000/static/js/main.d3162f6e.chunk.js",
+    "main.js.map": "/intravision-task-itop1000/static/js/main.d3162f6e.chunk.js.map",
+    "runtime-main.js": "/intravision-task-itop1000/static/js/runtime-main.3dc6a8f0.js",
+    "runtime-main.js.map": "/intravision-task-itop1000/static/js/runtime-main.3dc6a8f0.js.map",
+    "static/js/2.5773e1b8.chunk.js": "/intravision-task-itop1000/static/js/2.5773e1b8.chunk.js",
+    "static/js/2.5773e1b8.chunk.js.map": "/intravision-task-itop1000/static/js/2.5773e1b8.chunk.js.map",
+    "index.html": "/intravision-task-itop1000/index.html",
+    "static/js/2.5773e1b8.chunk.js.LICENSE.txt": "/intravision-task-itop1000/static/js/2.5773e1b8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3dc6a8f0.js",
+    "static/js/2.5773e1b8.chunk.js",
+    "static/js/main.d3162f6e.chunk.js"
+  ]
+}
