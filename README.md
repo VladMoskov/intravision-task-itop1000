@@ -1,2 +1,2 @@
 ## GH-Pages :
-https://vladmoskov.github.io/intravision-task-itop1000/
+https://vladrassokhyn.github.io/intravision-task-itop1000/
