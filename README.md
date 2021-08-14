@@ -1,2 +1,2 @@
 ## GH-Pages :
-https://vladrassokhyn.github.io/react-rxjs-stopwatch
+https://vladrassokhyn.github.io/intravision-task-itop1000
